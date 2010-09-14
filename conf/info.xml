@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">NAVER Analytics</title>
+	<title xml:lang="en">NAVER Analytics</title>
+	<description xml:lang="ko">NAVER Analytics(http://analytics.naver.com) 통계 분석 모듈입니다.</description>
+	<description xml:lang="en">NAVER Analytics</description>
+	<version>0.2.1</version>
+	<date>2010-09-01</date>
+	<category>statistics</category>
+	<author email="developers@xpressengine.com" link="http://www.xpressengine.com">
+		<name xml:lang="ko">nhn</name>
+	</author>
+</module>
