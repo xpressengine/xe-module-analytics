@@ -2,32 +2,32 @@
 <module>
 	<grants/>
 	<actions>
-		<action name="dispAnalyticsAdminContent" type="view" admin_index="true" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminContent" type="view" standalone="true" />
-		<action name="dispAnalyticsComeInfoAdminContent" type="view" standalone="true" />
-		<action name="dispAnalyticsPageInfoAdminContent" type="view" standalone="true" />
+		<action name="dispAnalyticsAdminContent" type="view" admin_index="true" />
+		<action name="dispAnalyticsVisitInfoAdminContent" type="view" />
+		<action name="dispAnalyticsComeInfoAdminContent" type="view" />
+		<action name="dispAnalyticsPageInfoAdminContent" type="view" />
 		
-		<action name="dispAnalyticsVisitInfoAdminVisitChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitPageViewChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitTimeChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitDayChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitBackChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitStayTimeChart" type="view" standalone="true" />
-		<action name="dispAnalyticsVisitInfoAdminVisitPathChart" type="view" standalone="true" />
+		<action name="dispAnalyticsVisitInfoAdminVisitChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitPageViewChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitTimeChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitDayChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitBackChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitStayTimeChart" type="view" />
+		<action name="dispAnalyticsVisitInfoAdminVisitPathChart" type="view" />
 		
-		<action name="dispAnalyticsComeInfoAdminComeEngineChart" type="view" standalone="true" />
-		<action name="dispAnalyticsComeInfoAdminComeSearchTextChart" type="view" standalone="true" />
-		<action name="dispAnalyticsComeInfoAdminComeUrlChart" type="view" standalone="true" />
+		<action name="dispAnalyticsComeInfoAdminComeEngineChart" type="view" />
+		<action name="dispAnalyticsComeInfoAdminComeSearchTextChart" type="view" />
+		<action name="dispAnalyticsComeInfoAdminComeUrlChart" type="view" />
 		
-		<action name="dispAnalyticsPageInfoAdminPagePopChart" type="view" standalone="true" />
-		<action name="dispAnalyticsPageInfoAdminPageDrillDownChart" type="view" standalone="true" />
-		<action name="dispAnalyticsPageInfoAdminPageStartChart" type="view" standalone="true" />
-		<action name="dispAnalyticsPageInfoAdminPageEndChart" type="view" standalone="true" />
-		<action name="dispAnalyticsPageInfoAdminPageReturnChart" type="view" standalone="true" />
+		<action name="dispAnalyticsPageInfoAdminPagePopChart" type="view" />
+		<action name="dispAnalyticsPageInfoAdminPageDrillDownChart" type="view" />
+		<action name="dispAnalyticsPageInfoAdminPageStartChart" type="view" />
+		<action name="dispAnalyticsPageInfoAdminPageEndChart" type="view" />
+		<action name="dispAnalyticsPageInfoAdminPageReturnChart" type="view" />
 		
 		<action name="dispAnalyticsAPIData" type="view" />
 		
-		<action name="procAnalyticsAdminInsertAPIKey" type="controller" standalone="true" />
-		<action name="procAnalyticsAdminCheckAPIKey" type="controller" standalone="true" />
+		<action name="procAnalyticsAdminInsertAPIKey" type="controller" />
+		<action name="procAnalyticsAdminCheckAPIKey" type="controller" />
 	</actions>
 </module>
