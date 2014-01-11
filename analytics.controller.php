@@ -11,7 +11,7 @@ class analyticsController extends analytics {
 			return;
 		}
 
-		$oModuleModel = &getModel('module');
+		$oModuleModel = getModel('module');
 		$module_config = $oModuleModel->getModuleConfig('analytics');
 
 		// api_key가 설정되어있지 않은 경우 스크립트 삽입하지 않는다.

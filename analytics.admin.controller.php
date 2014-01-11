@@ -11,7 +11,7 @@ class analyticsAdminController extends analytics
 		$args = Context::gets('api_key');
 
 		// module controlle 객체 생성하여 Key값 저장
-		$oModuleController = &getController('module');
+		$oModuleController = getController('module');
 		$output = $oModuleController->insertModuleConfig('analytics', $args);
 		return $output;
 	}

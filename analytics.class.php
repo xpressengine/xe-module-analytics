@@ -3,8 +3,8 @@ class analytics extends ModuleObject{
 	var	$api_url = 'http://analytics.openapi.naver.com/?method=%s&apikey=%s';
 
 	function moduleInstall(){
-		$oModuleModel = &getModel('module');
-		$oModuleController = &getController('module');
+		$oModuleModel = getModel('module');
+		$oModuleController = getController('module');
 
 		if(!$oModuleModel->getTrigger('display', 'analytics', 'controller', 'triggerBeforeDisplay', 'before'))
 		{
@@ -20,7 +20,7 @@ class analytics extends ModuleObject{
 	}
 
 	function checkUpdate(){
-		$oModuleModel = &getModel('module');
+		$oModuleModel = getModel('module');
 
 		//debugPrint($oModuleModel);
 		if(!$oModuleModel->getTrigger('textyle.getTextyleCustomMenu', 'analytics', 'controller', 'triggerGetTextyleCustomMenu', 'after'))
@@ -37,8 +37,8 @@ class analytics extends ModuleObject{
 	}
 
 	function moduleUpdate(){
-		$oModuleModel = &getModel('module');
-		$oModuleController = &getController('module');
+		$oModuleModel = getModel('module');
+		$oModuleController = getController('module');
 
 		if(!$oModuleModel->getTrigger('display', 'analytics', 'controller', 'triggerBeforeDisplay', 'before'))
 		{

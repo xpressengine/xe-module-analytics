@@ -9,7 +9,7 @@ class analyticsAdminView extends analytics
 
 	function dispAnalyticsAdminContent()
 	{
-		$oModuleModel = &getModel('module');
+		$oModuleModel = getModel('module');
 
 		$module_config = $oModuleModel->getModuleConfig('analytics');
 
@@ -23,7 +23,7 @@ class analyticsAdminView extends analytics
 
 	function _setDefaultData($method)
 	{
-		$oModuleModel = &getModel('module');
+		$oModuleModel = getModel('module');
 
 		$module_config = $oModuleModel->getModuleConfig('analytics');
 		Context::set('api_key', $module_config->api_key);
