@@ -1,20 +1,23 @@
 <!--%import("filter/insert_api_key.xml")-->
 
-<!--#include("./header.html")-->
-<form action-"./" method="get" onsubmit="return procFilter(this, insert_api_key)">
-	<table cellspacing="0" class="rowTable">
-	<tr>
-		<th scope="row"><div>{$lang->analytics_api_key}</div></th>
-		<td>
-			api_key : <input type="text" id="api_key" name="api_key" value="{$api_key}" class="inputTypeText apiKey" />
-			<span class="button green"><input type="button" value="{$lang->cmd_check_analytics_api_key}" onclick="checkAPIKey(jQuery('#api_key').val())" /></span>
-			<p>{$lang->about_analytics_api_key}</p>
-		</td>
-	</tr>
-	<tr class="row2">
-		<th colspan="2" class="button">
-			<span class="button black strong"><input type="submit" value="{$lang->cmd_registration}" accesskey="s" /></span>
-		</th>
-	</tr>
-</table>
+<include target="./header.html" />
+
+<form action-"./" method="post" class="x_form-horizontal" onsubmit="return procFilter(this, insert_api_key)">
+	<section class="section">
+		<div class="x_control-group">
+			<label class="x_control-label" for="api_key">{$lang->analytics_api_key}</label>
+			<div class="x_controls">
+				api_key : <input type="text" id="api_key" name="api_key" value="{$api_key}" />
+				<input class="x_btn x_btn-primary" type="button" onclick="checkAPIKey(jQuery('#api_key').val())" value="{$lang->cmd_check_analytics_api_key}" />
+
+				<p class="x_help-block">{$lang->about_analytics_api_key}</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="x_clearfix btnArea">
+		<div class="x_pull-right">
+			<input class="x_btn x_btn-primary" type="submit" value="{$lang->cmd_registration}" />
+		</div>
+	</div>
 </form>
