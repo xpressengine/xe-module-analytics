@@ -3,30 +3,6 @@
 	<grants/>
 	<actions>
 		<action name="dispAnalyticsAdminContent" type="view" admin_index="true" />
-		<action name="dispAnalyticsVisitInfoAdminContent" type="view" />
-		<action name="dispAnalyticsComeInfoAdminContent" type="view" />
-		<action name="dispAnalyticsPageInfoAdminContent" type="view" />
-		
-		<action name="dispAnalyticsVisitInfoAdminVisitChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitPageViewChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitTimeChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitDayChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitBackChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitStayTimeChart" type="view" />
-		<action name="dispAnalyticsVisitInfoAdminVisitPathChart" type="view" />
-		
-		<action name="dispAnalyticsComeInfoAdminComeEngineChart" type="view" />
-		<action name="dispAnalyticsComeInfoAdminComeSearchTextChart" type="view" />
-		<action name="dispAnalyticsComeInfoAdminComeUrlChart" type="view" />
-		
-		<action name="dispAnalyticsPageInfoAdminPagePopChart" type="view" />
-		<action name="dispAnalyticsPageInfoAdminPageDrillDownChart" type="view" />
-		<action name="dispAnalyticsPageInfoAdminPageStartChart" type="view" />
-		<action name="dispAnalyticsPageInfoAdminPageEndChart" type="view" />
-		<action name="dispAnalyticsPageInfoAdminPageReturnChart" type="view" />
-		
-		<action name="dispAnalyticsAPIData" type="view" />
-		
 		<action name="procAnalyticsAdminInsertAPIKey" type="controller" />
 		<action name="procAnalyticsAdminCheckAPIKey" type="controller" />
 	</actions>

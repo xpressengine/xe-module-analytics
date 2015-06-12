@@ -20,7 +20,7 @@ class analyticsController extends analytics {
 			return;
 		}
 
-		$script =  '<script type="text/javascript" src="http://static.analytics.openapi.naver.com/js/wcslog.js"></script><script type="text/javascript">if(!wcs_add) var wcs_add = {};wcs_add["wa"] = "'.$module_config->api_key.'";wcs_do();</script>';
+		$script =  '<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script> <script type="text/javascript"> if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "'.$module_config->api_key.'"; wcs_do(); </script>';
 		Context::addHtmlFooter( $script );
 	}
 
