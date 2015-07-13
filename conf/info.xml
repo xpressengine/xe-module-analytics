@@ -2,8 +2,8 @@
 <module version="0.2">
 	<title xml:lang="ko">NAVER Analytics</title>
 	<description xml:lang="ko">NAVER Analytics(http://analytics.naver.com) 통계 분석 모듈입니다.</description>
-	<version>1.0.0</version>
-	<date>2015-06-12</date>
+	<version>1.0.1</version>
+	<date>2015-07-13</date>
 	<category>statistics</category>
 
 	<author email="developers@xpressengine.com" link="https://www.xpressengine.com">
